@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicesActivity"
+
+    >
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/nav_services"
+        android:textColor=" #000000 "
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_below="@+id/toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:id="@+id/expandableButton1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/serviceTextColor"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton1"
+                android:paddingRight="10dp"
+                android:text="@string/drycleaning"
+                 />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"  android:id="@+id/expandableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton1"
+                android:background="@color/serviceExpandableTextColor"
+                app:ael_duration="400"
+                android:padding="16dp"
+                app:ael_expanded="false"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:text="@string/ex_drycleaning">
+                </TextView>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/expandableButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/expandableLayout1"
+                android:background="@color/serviceTextColor"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton2"
+                android:paddingRight="10dp"
+                android:text="@string/washing"
+                 />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/expandableLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton2"
+                android:background="@color/serviceExpandableTextColor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:text="@string/ex_washing" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:id="@+id/expandableButton3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/expandableLayout2"
+                android:background="@color/serviceTextColor"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton3"
+                android:paddingRight="10dp"
+                android:text="@string/ironing"
+               />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"  android:id="@+id/expandableLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton3"
+                android:background="@color/serviceExpandableTextColor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:text="@string/ex_ironing"
+                    /></com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"  android:id="@+id/expandableButton4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/expandableLayout3"
+                android:background="@color/serviceTextColor"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton4"
+                android:paddingRight="10dp"
+                android:text="@string/coloring"
+                 />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:id="@+id/expandableLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton4"
+                android:background="@color/serviceExpandableTextColor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:text="@string/ex_coloring" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <!--Expandable button five Start-->
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:id="@+id/expandableButton5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/expandableLayout4"
+                android:background="@color/serviceTextColor"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton5"
+                android:paddingRight="10dp"
+                android:text="@string/saree_roll_press"
+               />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:id="@+id/expandableLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton5"
+                android:background="@color/serviceExpandableTextColor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:text="@string/ex_saree_roll_press"
+                    /></com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <!--Expandable button five end-->
+
+            <!--Expandable button six Start-->
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"   android:id="@+id/expandableButton6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/expandableLayout5"
+                android:background="@color/serviceTextColor"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton6"
+                android:paddingRight="10dp"
+                android:text="@string/saree_steam_press"
+                 />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:id="@+id/expandableLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton6"
+                android:background="@color/serviceExpandableTextColor"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:text="@string/ex_saree_steam_press"
+                    /></com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <!--Expandable button six end-->
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

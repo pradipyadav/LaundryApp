@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">K9Drycleaning</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome!</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_language">Language</string>
+
+    <!--Navigation Draver-->
+
+    <string name="nav_price_list">Price List</string>
+    <string name="nav_offers">Offers</string>
+    <string name="nav_histry">History</string>
+    <string name="nav_aboutus">About us</string>
+    <string name="nav_services">Services</string>
+    <string name="nav_contactus">Contact us</string>
+    <string name="logout">Logout</string>
+
+    <string name="nav_communicate">Communicate</string>
+
+    <string name="nav_feedback">Feedback</string>
+    <string name="share">Share</string>
+    <string name="nav_termsandcondition">Terms and Condition</string>
+
+    <!--Spinner-->
+
+    <string name="spinner_title">Select Category</string>
+
+    <string-array name="Select">
+        <item>Select</item>
+        <item>Wash</item>
+        <item>Iron</item>
+        <item>Wash and Iron</item>
+        <item>Drycleaning</item>
+    </string-array>
+
+    <!--Main Activity-->
+
+    <string name="nav_drycleaning">Drycleaning</string>
+
+
+    <string name="onlyWash">Wash</string>
+    <string name="onlyIron">Iron</string>
+    <string name="washAndIron">Wash and Iron</string>
+    <string name="dryCleaning">Dry Cleaning</string>
+
+    <string name="youcanselectmultiple">Please take the clothes in one hour.</string>
+
+    <!--Login Activity-->
+
+    <string name="login">LOGIN </string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="notmember">Not a Member yet? Register here</string>
+
+    <!--Registration Activity-->
+
+    <string name="register">Register </string>
+    <string name="user_id">User name</string>
+    <string name="Name">Name</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register_password">Password</string>
+    <string name="confirmPassword_password">Confirm Password</string>
+    <string name="backToLogin">Already have an account? Login now</string>
+
+    <string name="aboutus">Laundry and Dry cleaning is a service activity. Earlier clothes were washed by hand, washer men in ponds, rivers and then dried and pressed. But now a days hand wash is outdated, due to work load. Washing machines of high capacity are developed and steam pressing and calendaring machines have also come up to make wrinkle free and press automatically. Dry cleaning is a process of cleaning costly clothes in specific solvent with the help of washing machine. In conventional washing, water is the main medium and detergent or soap is used for washing. In such case, costly clothes may shrink or colour may fade in the presence of strong alkalis. So valuable clothes, sareps, coats, etc. are dry washed. As dry cleaning need lot of care and systematic procedure and chemicals, it is not easy to carry out at home and service units are found in major towns for this activity. The Project will have automatic Washing machine also to undertake the order of wet cleaning of the cloths. Facility for pressing of the cloths of customer will also be available.</string>
+
+
+    <!--FeedBack-->
+    <string name="feedbackName">Name  </string>
+    <string name="FeedbackContact">Contact</string>
+    <string name="feedbackFeedback">Feedback</string>
+    <string name="feedbackSubmit">Submit</string>
+
+    <!--Servicess-->
+    <string name="drycleaning">Dry-Cleaning</string>
+    <string name="washing">Washing</string>
+    <string name="ironing">Ironing</string>
+    <string name="coloring">Coloring</string>
+    <string name="saree_roll_press">Saree Roll Press</string>
+    <string name="saree_steam_press">Saree Steam Press</string>
+
+    <!--Expandable Activity Start-->
+
+    <string name="ex_drycleaning">It is any cleaning process for clothing and textiles using a chemical solvent other than water.</string>
+    <string name="ex_washing">It is a method of cleaning, usually with water and often some kind of soap or detergent.</string>
+    <string name="ex_ironing">Ironing is the use of a heated tool(an iron)to remove wrinkles from fabric.</string>
+    <string name="ex_coloring">Transform a plain white or light colored garment by dyeing it a bright, vibrant hue.</string>
+    <string name="ex_saree_roll_press">Conventional roll presses are rolls is in a fixed position, with a mating roll being loaded against this fixed roll.</string>
+    <string name="ex_saree_steam_press">A pressing iron with a compatment holding water that is converted to steam by the irons heat and emitted through the soleplate onto the fabric being pressed.</string>
+
+    <!--Expandable Activity End-->
+
+
+    <!--ContactUs-->
+    <string name="c_Contact">Contact</string>
+    <string name="c_email">Email</string>
+    <string name="cb1">Branch 1</string>
+    <string name="cb2">Branch 2</string>
+    <string name="cb3">Branch 3</string>
+
+    <string name="contact">  +91-9527933199 / 9527933299</string>
+    <string name="con_email">rameshpasalkar1995@gmail.com</string>
+    <string name="addres1">04 Nilkanth apartment D.S.K Road last bus stop Dhayrigaon Pune 411041.</string>
+    <string name="addres2">01 AmbaiMata temple, near Dhareshwar temple Mahasoba Dare Road, Dhayarigaon, pune 411041.</string>
+    <string name="addres3">15 Siddhi Arcade Near Gyanadip School, Narhegaon Pune 411041.</string>
+    <string name="title_activity_price">PriceActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <!--Press-->
+    <string name="type_of_cloths">Type of Cloths</string>
+    <string name="rates">Rates</string>
+
+
+    <string name="product">Product</string>
+    <string name="quantity">Quantity</string>
+    <string name="rate">Rate</string>
+    <string name="shirt">Shirt</string>
+    <string name="pant">Pant</string>
+    <string name="shirtStarch">Shirt Starch</string>
+    <string name="Pant_Starch">Pant Starch</string>
+    <string name="Kurta">Kurta</string>
+    <string name="Kurtatwopiece">Kurta-2 piece</string>
+    <string name="Top">Top</string>
+    <string name="Salwar">Salwar</string>
+    <string name="Dupatta">Dupatta</string>
+    <string name="Saree">Saree</string>
+    <string name="Shalu">Shalu/Paithani</string>
+    <string name="Navwari">Navwari</string>
+    <string name="Blauz">Blouse</string>
+    <string name="Panjabi_Suit">Panjabi Suit</string>
+    <string name="Dhotar_Sohale">Dhotar Sohale</string>
+    <string name="Coat">Coat</string>
+    <string name="Sherwani">Sherwani</string>
+    <string name="Sweater">Sweater</string>
+    <string name="Bedsheet_Single">Bedsheet Single</string>
+    <string name="Bedsheet_Double">Bedsheet Double</string>
+    <string name="Solapur_Single_Chadar">Solapur Single Chadar</string>
+    <string name="Solapur_Double_Chadar">Solapur Double Chadar</string>
+    <string name="Blanket_Single">Blanket Single</string>
+    <string name="Blanket_Double">Blanket Double</string>
+    <string name="Car_Seat_cover">Car Seat cover</string>
+    <string name="School_bag">School bag</string>
+    <string name="Carpet">Carpet </string>
+    <string name="Colour_Black">Colour (Black)</string>
+    <string name="add">Add</string>
+    <string name="price">Price</string>
+    <string name="total_price">Total Price: </string>
+
+    <!--Drycleaning Rate Start here-->
+
+    <string name="dryshirt">Rs.40/piece</string>
+    <string name="drypant">Rs.40/piece</string>
+    <string name="dryshirtStarch">Rs.50/piece</string>
+    <string name="dryPant_Starch">Rs.50/piece</string>
+    <string name="dryKurta">Rs.90/piece</string>
+    <string name="dryKurtatwopiece">Rs.120/piece</string>
+    <string name="dryTop">Rs.40/piece</string>
+    <string name="drySalwar">Rs.40/piece</string>
+    <string name="dryDupatta">Rs.40/piece</string>
+    <string name="drySaree">Rs.120/piece</string>
+    <string name="dryShalu">Rs.150/piece</string>
+    <string name="dryPaithani">Rs.200/piece</string>
+    <string name="dryNavwari">Rs.150/piece</string>
+    <string name="dryBlauz">Rs.30/piece</string>
+    <string name="dryPanjabi_Suit">Rs.120/piece</string>
+    <string name="dryDhotar_Sohale">Rs.60/piece</string>
+    <string name="dryCoat">Rs.190/piece</string>
+    <string name="drySherwani">Rs.200/piece</string>
+    <string name="drySweater">Rs.80/piece</string>
+    <string name="dryBedsheet_Single">Rs.100/piece</string>
+    <string name="dryBedsheet_Double">Rs.120/piece</string>
+    <string name="drySolapur_Single_Chadar">Rs.150/piece</string>
+    <string name="drySolapur_Double_Chadar">Rs.180/piece</string>
+    <string name="dryBlanket_Single">Rs.200/piece</string>
+    <string name="dryBlanket_Double">Rs.250/piece</string>
+    <string name="dryCar_Seat_cover">Rs.300/500</string>
+    <string name="drySchool_bag">Rs.80/100</string>
+    <string name="dryCarpet">Rs.250/300 </string>
+    <string name="dryColour_Black">Rs.200/piece</string>
+
+
+    <!--Drycleaning rate end-->
+
+
+    <!--Press Rate Start here-->
+
+    <string name="pressshirt">Rs.07/piece</string>
+    <string name="presspant">Rs.07/piece</string>
+    <string name="pressshirtStarch">Rs.10/piece</string>
+    <string name="pressPant_Starch">Rs.10/piece</string>
+    <string name="pressKurta">Rs.10/piece</string>
+    <string name="pressKurtatwopiece">Rs.20/piece</string>
+    <string name="pressTop">Rs.07/piece</string>
+    <string name="pressSalwar">Rs.07/piece</string>
+    <string name="pressDupatta">Rs.07/piece</string>
+    <string name="pressSaree">Rs.40/piece</string>
+    <string name="pressShalu">Rs.60/piece</string>
+    <string name="pressNavwari">Rs.60/piece</string>
+    <string name="pressBlauz">Rs.07/piece</string>
+    <string name="pressPanjabi_Suit">Rs.25/piece</string>
+    <string name="pressDhotar_Sohale">Rs.40/piece</string>
+    <string name="pressCoat">Rs.60/piece</string>
+    <string name="pressSherwani">Rs.80/piece</string>
+    <string name="pressSweater">Rs.10/piece</string>
+    <string name="pressBedsheet_Single">Rs.30/piece</string>
+    <string name="pressBedsheet_Double">Rs.40/piece</string>
+    <string name="pressSolapur_Single_Chadar">Rs.30/piece</string>
+    <string name="pressSolapur_Double_Chadar">Rs.40/piece</string>
+    <string name="pressBlanket_Single">-</string>
+    <string name="pressBlanket_Double">-</string>
+    <string name="pressCar_Seat_cover">-</string>
+    <string name="pressSchool_bag">-</string>
+    <string name="pressCarpet">- </string>
+    <string name="pressColour_Black">-</string>
+
+    <!--Press rate end-->
+
+    <!--History Activity-->
+
+    <string name="orderHistory">Order History</string>
+
+
+</resources>

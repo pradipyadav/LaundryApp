@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorBlueJeans"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="2dp">-->
+
+            <!--<ImageView-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:id="@+id/imageView"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:padding="4dp"-->
+                <!--/>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_marginTop="5dp"-->
+
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:id="@+id/shirt"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"-->
+                    <!--android:textSize="25sp"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:padding="5dp"/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/quantityshirt"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:padding="2dp"/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/totalpriceshirt"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"-->
+                    <!--android:textStyle="bold" -->
+                    <!--android:padding="2dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginTop="5dp"/>-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--Second View Start-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:id="@+id/shirt"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/quantityshirt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/shirt"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+
+                <TextView
+                    android:id="@+id/totalpriceshirt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/quantityshirt"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <!--Second View End-->
+    </LinearLayout>
+
+</LinearLayout>

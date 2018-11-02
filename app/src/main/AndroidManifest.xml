@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sony.com.k9drycleaning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/k9logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".PriceListActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".Terms_And_Condition_Activity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".OnlyWash" />
+        <activity android:name=".OnlyIron" />
+        <activity android:name=".WashAndIron" />
+        <activity android:name=".Drycleaning" />
+        <activity
+            android:name=".PriceActivity"
+            android:label="@string/title_activity_price"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".RecyclearView" />
+    </application>
+
+</manifest>

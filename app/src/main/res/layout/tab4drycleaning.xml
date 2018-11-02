@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PriceActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="3"
+            android:background="#D2D2D2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/type_of_cloths"
+                android:textSize="15sp"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/rates"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="1dp">
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shirt"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryshirt"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pant"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/drypant"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shirtStarch"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryshirtStarch"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Pant_Starch"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryPant_Starch"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Kurta"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryKurta"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Kurtatwopiece"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryKurtatwopiece"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Top"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryTop"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Salwar"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryTop"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Dupatta"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryDupatta"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Saree"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/drySaree"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Shalu"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryShalu"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Navwari"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryNavwari"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Blauz"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryBlauz"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Panjabi_Suit"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryPanjabi_Suit"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Dhotar_Sohale"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryDhotar_Sohale"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Coat"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryCoat"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Sherwani"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/drySherwani"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Sweater"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/drySweater"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Bedsheet_Single"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryBedsheet_Single"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Bedsheet_Double"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryBedsheet_Double"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Solapur_Single_Chadar"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/drySolapur_Single_Chadar"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Solapur_Double_Chadar"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/drySolapur_Double_Chadar"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Blanket_Single"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryBlanket_Single"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Blanket_Double"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryBlanket_Double"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Car_Seat_cover"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryCar_Seat_cover"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/School_bag"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/drySchool_bag"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Carpet"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryCarpet"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+                <!--New View-->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#D2D2D2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="8dp"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Colour_Black"
+                        android:textSize="15sp"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dryColour_Black"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:padding="5dp"/>
+
+                </LinearLayout>
+
+                <!--New View End-->
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

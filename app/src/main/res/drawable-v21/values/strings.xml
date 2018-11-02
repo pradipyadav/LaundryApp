@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">K9Drycleaning</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome!</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_language">Language</string>
+
+    <!--Navigation Draver-->
+
+    <string name="price_list">Price List</string>
+    <string name="offers">Offers</string>
+    <string name="histry">History</string>
+    <string name="nav_aboutus">About us</string>
+    <string name="nav_services">Services</string>
+    <string name="nav_contactus">Contact us</string>
+    <string name="logout">Logout</string>
+
+    <string name="nav_communicate">Communicate</string>
+
+    <string name="nav_feedback">Feedback</string>
+    <string name="share">Share</string>
+    <string name="nav_termsandcondition">Terms and Condition</string>
+
+
+    <!--Main Activity-->
+
+    <string name="onlyWash">Wash</string>
+    <string name="onlyIron">Iron</string>
+    <string name="washAndIron">Wash and Iron</string>
+    <string name="dryCleaning">Dry Cleaning</string>
+
+    <string name="youcanselectmultiple">Please take the clothes in one hour.</string>
+
+    <!--Login Activity-->
+
+    <string name="login">LOGIN </string>
+    <string name="user_name">User ID</string>
+    <string name="password">Password</string>
+    <string name="notmember">Not a Member yet? Register here</string>
+
+    <!--Registration Activity-->
+
+    <string name="register">Register </string>
+    <string name="user_id">User name</string>
+    <string name="Name">Name</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register_password">Password</string>
+    <string name="confirmPassword_password">Confirm Password</string>
+    <string name="backToLogin">Already have an account? Login now</string>
+
+    <string name="aboutus">Laundry and Dry cleaning is a service activity. Earlier clothes were washed by hand, washer men in ponds, rivers and then dried and pressed. But now a days hand wash is outdated, due to work load. Washing machines of high capacity are developed and steam pressing and calendaring machines have also come up to make wrinkle free and press automatically. Dry cleaning is a process of cleaning costly clothes in specific solvent with the help of washing machine. In conventional washing, water is the main medium and detergent or soap is used for washing. In such case, costly clothes may shrink or colour may fade in the presence of strong alkalis. So valuable clothes, sareps, coats, etc. are dry washed. As dry cleaning need lot of care and systematic procedure and chemicals, it is not easy to carry out at home and service units are found in major towns for this activity. The Project will have automatic Washing machine also to undertake the order of wet cleaning of the cloths. Facility for pressing of the cloths of customer will also be available.</string>
+
+
+    <!--FeedBack-->
+    <string name="feedbackName">Name  </string>
+    <string name="FeedbackContact">Contact</string>
+    <string name="feedbackFeedback">Feedback</string>
+    <string name="feedbackSubmit">Submit</string>
+
+    <!--Servicess-->
+    <string name="drycleaning">Dry-Cleaning</string>
+    <string name="washing">Washing</string>
+    <string name="ironing">Ironing</string>
+    <string name="coloring">Coloring</string>
+    <string name="saree_roll_press">Saree Roll Press</string>
+    <string name="saree_steam_press">Saree Steam Press</string>
+
+    <!--ContactUs-->
+    <string name="c_Contact">Contact</string>
+    <string name="c_email">Email</string>
+    <string name="cb1">Branch 1</string>
+    <string name="cb2">Branch 2</string>
+    <string name="cb3">Branch 3</string>
+
+    <string name="contact">  +91-9527933199 / 9527933299</string>
+    <string name="con_email">rameshpasalkar1995@gmail.com</string>
+    <string name="addres1">04 Nilkanth apartment D.S.K Road last bus stop Dhayrigaon Pune 411041.</string>
+    <string name="addres2">01 AmbaiMata temple, near Dhareshwar temple Mahasoba Dare Road, Dhayarigaon, pune 411041.</string>
+    <string name="addres3">15 Siddhi Arcade Near Gyanadip School, Narhegaon Pune 411041.</string>
+
+</resources>
