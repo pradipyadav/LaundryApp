@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -12,7 +11,7 @@ public class CartActivity extends AppCompatActivity {
     TextView txtShirt,txtQuantity,txtTotalPrice,pant,quantityPant,totalPricePant;
 
     ImageView imageView2,imageViewPant;
-    String stShirt,stPrice,stCount,stPant,stQpant,stRPant;
+    String stShirt,stPrice,stCount,stPant,stQpant,stRPant,stQuantity,stTotalPrice;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +27,7 @@ public class CartActivity extends AppCompatActivity {
 //        quantityPant=findViewById(R.id.quantitypant);
 //        totalPricePant=findViewById(R.id.totalpricepant);
 
+//==========================Using Shared preferences============================================
 
         SharedPreferences result =getSharedPreferences("Add",Context.MODE_PRIVATE);
         int pic=result.getInt("image",0);
@@ -40,22 +40,22 @@ public class CartActivity extends AppCompatActivity {
         txtQuantity.setText("Quantity: "+stCount);
         txtTotalPrice.setText("Total Price: "+stPrice);
 
+//============================================Using bunddle=================================================
 
-
-//        Bundle bundle=this.getIntent().getExtras();
-//        int pic=bundle.getInt("image");
+//        Bundle b1=this.getIntent().getExtras();
+//        int pic=b1.getInt("images");
 //        imageView2.setImageResource(pic);
 //
-//        stShirt=bundle.getString("shirt");
+//        stShirt=b1.getString("shirt");
 //        txtShirt.setText(stShirt);
 //
-//        stQuantity=bundle.getString("count");
+//        stQuantity=b1.getString("count");
 //        txtQuantity.setText("Quantity: "+stQuantity);
 //
-//        stTotalPrice=bundle.getString("price");
+//        stTotalPrice=b1.getString("price");
 //        txtTotalPrice.setText("Total Price: "+stTotalPrice);
 
-
+//================================================================================================
 
 //        Bundle bundlepant=this.getIntent().getExtras();
 //        int picpant=bundle.getInt("pimage");
@@ -69,8 +69,6 @@ public class CartActivity extends AppCompatActivity {
 //
 //        stRPant=bundlepant.getString("pprice");
 //        totalPricePant.setText("Total Price: "+stRPant);
-
-
 
     }
 }

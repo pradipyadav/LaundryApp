@@ -7,22 +7,16 @@
     android:orientation="vertical"
     tools:context=".FeedbackActivity">
 
-    <LinearLayout
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="@string/feedbackFeedback"
+        app:titleTextColor="#fff"
+        android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/nav_feedback"
-            android:textColor=" #000000 "
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            />
-    </LinearLayout>
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorBlueJeans"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        />
 
     <ScrollView
         android:layout_width="match_parent"

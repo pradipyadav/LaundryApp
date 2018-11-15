@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".WashAndIron">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="@string/washAndIron"
+        app:titleTextColor="#fff"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorBlueJeans"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        />
 </android.support.constraint.ConstraintLayout>

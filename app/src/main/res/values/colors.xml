@@ -20,6 +20,8 @@
     <color name="serviceTextColor">#90066da1</color>
     <color name="serviceExpandableTextColor">#87ceeb</color>
 
+    <color name="colorbuttonpressed">#87ceeb</color>
+
 
 
     <!--Color For Login Page-->
@@ -58,7 +60,7 @@
     <color name="colorGrass">#A0D468</color>
     <color name="colorGrassDark">#8CC152</color>
     <color name="colorBlueJeans">#509CEC</color>
-    <color name="colorBlueJeansDark">#4A89DC</color>
+    <color name="colorBlueJeansDark">#4a89dc</color>
     <color name="colorLavander">#AC92EC</color>
     <color name="colorLavanderDark">#967ADC</color>
     <color name="colorMint">#48CFAD</color>

@@ -7,23 +7,16 @@
     tools:context=".PriceListActivity"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="center" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:text="@string/nav_price_list"
-            android:padding="5dp"
-            android:layout_gravity="center"
-            />
-
-    </LinearLayout>
-
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="@string/nav_price_list"
+        app:titleTextColor="#fff"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorBlueJeans"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

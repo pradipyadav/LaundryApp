@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Drycleaning extends AppCompatActivity {
+    DataBaseHelper myDb;
 
     TextView qDryShirt, qDryPant, qDryShirtStarch, qDryPantStarch, qDryKurta, qDryKurta2piece, qDryTop,
             qDrySalwar, qDryDupatta, qDrySaree, qDryShaluPaithani, qDryNavwari, qDryBlause, qDryPunjabiSuit,
@@ -62,7 +63,6 @@ public class Drycleaning extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dry_cleaning);
-
 
 
 //       Total Button*********************************************************
@@ -214,17 +214,38 @@ public class Drycleaning extends AppCompatActivity {
         dryShirt = findViewById(R.id.dryShirt);
         imgShirt = findViewById(R.id.imgShirt);
 
-
-
+//        addData();
 
 //        *******************************************************************************************
 //                        Shirt
 
-
+//
             btnDShirt.setOnClickListener(
                     new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
+//
+//                            boolean isInserted=myDb.insertData(dryShirt.getText().toString(),shirtValue.getText().toString(),
+//                                    totalShirtPrice.getText().toString());
+//
+//                            if (isInserted=true)
+//                                Toast.makeText(Drycleaning.this,"Added",Toast.LENGTH_LONG).show();
+//                            else
+//                                Toast.makeText(Drycleaning.this,"please take order",Toast.LENGTH_LONG).show();
+//
+
+//==================================================================================================
+//                            Intent i=new Intent(Drycleaning.this,CartActivity.class);
+//
+//                            Bundle b1=new Bundle();
+//                            b1.putString("shirt",dryShirt.getText().toString());
+//                            b1.putString("price",totalShirtPrice.getText().toString());
+//                            b1.putString("count",shirtValue.getText().toString());
+//                            b1.putInt("images",R.drawable.ic_shirt);
+//                            i.putExtras(b1);
+//
+//                            startActivity(i);
+//=======================================================================================================
                             sharedPreferences = getSharedPreferences("Add", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             editor.putString("shirt", dryShirt.getText().toString());
@@ -239,7 +260,7 @@ public class Drycleaning extends AppCompatActivity {
             );
 
 //  =========================================================================================================
-//                                  Pant
+//                                      Pant
 
         btnDPant.setOnClickListener(
                 new View.OnClickListener() {
@@ -266,8 +287,11 @@ public class Drycleaning extends AppCompatActivity {
 
                 Intent shirt=new Intent(Drycleaning.this,CartActivity.class);
                 startActivity(shirt);
+
             }
         });
+
+//        ============================================================================================
 
 
         minButton.setOnClickListener(new View.OnClickListener() {
@@ -358,6 +382,28 @@ public class Drycleaning extends AppCompatActivity {
 
     }
     //*****************************************************************************************************
+//  Using SQLite Database
+
+//    public void addData(){
+//
+//        btnDShirt.setOnClickListener(
+//        new View.OnClickListener() {
+//            @Override
+//                public void onClick(View v) {
+//                     boolean isInserted=myDb.insertData(dryShirt.getText().toString(),shirtValue.getText().toString(),
+//                                totalShirtPrice.getText().toString());
+//                     if (isInserted==true)
+//                        Toast.makeText(Drycleaning.this,"Added",Toast.LENGTH_LONG).show();
+//                     else
+//                         Toast.makeText(Drycleaning.this,"please take order",Toast.LENGTH_LONG).show();
+//
+//                }
+//            }
+//        );
+//
+//    }
+
+//    ========================================================================================
     public void shirtStarchmin(View view) {
         cDryShirtStarch--;
         if (cDryShirtStarch<=0)

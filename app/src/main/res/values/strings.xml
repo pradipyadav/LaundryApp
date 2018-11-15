@@ -60,7 +60,7 @@
     <string name="user_id">User name</string>
     <string name="Name">Name</string>
     <string name="address">Address</string>
-    <string name="email">Email</string>
+    <string name="r_email">Email</string>
     <string name="phone_number">Phone Number</string>
     <string name="register_password">Password</string>
     <string name="confirmPassword_password">Confirm Password</string>
@@ -70,7 +70,7 @@
 
 
     <!--FeedBack-->
-    <string name="feedbackName">Name  </string>
+    <string name="feedbackName">Name</string>
     <string name="FeedbackContact">Contact</string>
     <string name="feedbackFeedback">Feedback</string>
     <string name="feedbackSubmit">Submit</string>

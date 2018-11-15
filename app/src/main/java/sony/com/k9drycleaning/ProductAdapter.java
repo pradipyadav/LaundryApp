@@ -2,6 +2,7 @@ package sony.com.k9drycleaning;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
@@ -15,6 +16,8 @@ import android.widget.TextView;
 import java.util.List;
 
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductViewHolder>{
+
+    CartActivity data;
 
     private Context mCtx;
     private List<Product> productList;
@@ -63,6 +66,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
             textViewTitle=itemView.findViewById(R.id.shirt);
             textViewQuantity=itemView.findViewById(R.id.quantityshirt);
             textViewPrice=itemView.findViewById(R.id.totalpriceshirt);
+
 //
 //            SharedPreferences result =getSharedPreferences("Add",Context.MODE_PRIVATE);
 //            int pic=result.getInt("image",0);
@@ -74,6 +78,10 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
 //            textViewTitle.setText(stShirt);
 //            textViewQuantity.setText("Quantity: "+stCount);
 //            textViewPrice.setText("Total Price: "+stPrice);
+
+
+
+
 
 
         }

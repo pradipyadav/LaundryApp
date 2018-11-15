@@ -4,45 +4,47 @@ public class Product  {
 
     private int id, quantity,tPrice ;
     private String title;
-    private int image;
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    public void settPrice(int tPrice) {
-        this.tPrice = tPrice;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setImage(int image) {
-        this.image = image;
-    }
 
     public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getQuantity() {
         return quantity;
     }
 
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
     public int gettPrice() {
         return tPrice;
+    }
+
+    public void settPrice(int tPrice) {
+        this.tPrice = tPrice;
     }
 
     public String getTitle() {
         return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public int getImage() {
         return image;
     }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+
+    private int image;
+
 }
